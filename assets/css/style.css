@@ -32,3 +32,11 @@ ul li a {
     text-decoration: none;
     color:bisque
 }
+
+.Buzo2{
+    width: 800px;
+    height: 800px;
+    background: red;
+    max-width: 500px;
+    overflow: visible;
+   }
