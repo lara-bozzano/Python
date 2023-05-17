@@ -1,7 +1,13 @@
-body {
-background: grey
-
+* {
+    padding: 0;
+    margin: 0;
 }
+
+body {
+background: grey;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 nav{
     background-color: black;
@@ -11,16 +17,10 @@ nav{
     display: flex;
 }
 
-.navbar{
-    display: flex;
-}
-
-
 ul li {
     list-style: none;
     display: inline-block;
-    margin: 0;
-    padding: 10px 80px;
+    padding: 10px 95px;
     }
 
 li:hover {
@@ -30,7 +30,7 @@ li:hover {
 
 ul li a {
     text-decoration: none;
-    color:bisque
+    color: bisque;
 }
 
 .Buzo2{
