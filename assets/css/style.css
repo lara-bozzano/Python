@@ -10,7 +10,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 nav{
-    background-color: black;
+    background-color: white;
 }
 
 .logo {
@@ -20,7 +20,8 @@ nav{
 ul li {
     list-style: none;
     display: inline-block;
-    padding: 10px 95px;
+    padding: 30px 125px;
+
     }
 
 li:hover {
@@ -30,7 +31,8 @@ li:hover {
 
 ul li a {
     text-decoration: none;
-    color: bisque;
+    color: orangered;
+    font-weight: bold;
 }
 
 .Buzo2{
