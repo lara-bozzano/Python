@@ -191,6 +191,23 @@ padding:10 px;
     margin: 20px 0;
     text-align: center;}
 
-    .editor__item{
-        width: 48%;
+
+    .container__INTRODUCCION{
+        font-size: 1.3em; 
       }
+      .container-editor{
+        display: flex;
+        justify-content: space-between;
+      }
+      .editor__item{
+        width: 48%;}
+
+        .container__INTRODUCCION{
+            text-align: center;
+            background: grey;
+            padding: 20px;
+            margin: 20px 0;
+          }
+          .nosotros2{
+            color: black;
+          }
