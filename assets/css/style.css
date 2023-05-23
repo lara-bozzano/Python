@@ -137,7 +137,7 @@ padding:10 px;
     margin-top: 20px;
   }
   
-  .editor__item{
+  .editor1{
     height: 200px;
     position: relative;
     overflow: hidden;
@@ -168,12 +168,12 @@ padding:10 px;
     font-weight: bold;
     transition: all 0.5s;
   }
-  .editor__item:hover .editor__circle{
+  .editor1:hover .editor__circle{
     transform: scale(1.2);
     bottom: -90px;
     right: -50px;
   }
-  .editor__item:before {
+  .editor1:before {
     content: "";
     position: absolute;
     top: 0;
@@ -184,7 +184,7 @@ padding:10 px;
     opacity: 0;
     transition: all 0.5s;
   }
-  .editor__item:hover:before {
+  .editor1:hover:before {
     opacity: 1;
   }
   .container-tips{
@@ -199,10 +199,10 @@ padding:10 px;
         display: flex;
         justify-content: space-between;
       }
-      .editor__item{
+      .editor1{
         width: 48%;}
 
-        .container__INTRODUCCION{
+        .NOSOTROSTITULO{
             text-align: center;
             background: grey;
             padding: 20px;
@@ -210,4 +210,139 @@ padding:10 px;
           }
           .nosotros2{
             color: black;
+          }
+
+          .footer1{
+            border-bottom: 1px dotted blue;
+            padding-bottom: 20px;
+          }
+
+
+          .footer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+          }
+
+          .footer1{
+            border-bottom: 1px dotted blue;
+            padding-bottom: 20px;
+          }
+
+          .copy1 {
+            grid-column-start: span 4;
+            text-align: center;
+          }
+
+          .main-footer{
+            background: #151515;
+            color: white;
+            padding: 30px 20px;
+          }
+        
+          @media screen and (min-width:768px) (max-width: 1024px) and (orientation: landscape) {
+        
+            .editor1{
+              height: 200px;
+            }
+            .container-tips{
+              margin: 40px 0;
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+            }
+          }
+
+          media screen and (min-width:1024px) { 
+        .main-header__container{
+              width: 1000px;
+              margin: auto;
+            }
+            .icon-menu {
+              display: none;
+            }
+            .main-header .container--flex{
+              display: flex;
+              align-items: center;
+            }
+            .main-header__container{
+              flex-wrap: wrap;
+              align-content: flex-start;
+            }
+            .main-header__txt{
+              width: 100%;
+            }
+            .main-header__container:nth-child(2){
+              order: -1;
+              width: 25%;
+            }
+            .main-header__container:nth-child(3){
+              width: 25%;
+              padding: 0 20px;
+            }
+            .main-header__title {
+              width: 100%;
+              font-size: 4em;
+              margin: 0;
+              border-bottom: 1px solid #ccc;
+            }
+            .main-header__link {
+              margin-bottom: 20px;
+            }
+            .main-header__btn{
+              width: 130px;
+              padding: 10px;
+              margin-bottom: 20px;
+            }
+            .main-header__input{
+              width: 85%;
+            }
+            .logo{
+              visibility: visible;
+              opacity: 1;
+              width: 50%;
+              margin-top: 20px;
+            }
+            .menu {
+              position: static;
+              width: 100%;
+              display: flex;
+              background: none;
+            }
+            .menu__link{
+              color: #333;
+            }
+            .menu__link:hover{
+              background: #333;
+              color: white;
+            }
+            .container-products {
+              grid-template-columns: repeat(4, 1fr);
+              grid-gap: 15px;
+            }
+            .product__img {
+              height: 150px;
+            }
+            .container__testimonials{
+              font-size: 1.3em; 
+            }
+            .container-editor{
+              display: flex;
+              justify-content: space-between;
+            }
+            .editor__item{
+              width: 48%;
+            }
+            .main-footer {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              grid-gap: 20px;
+            }
+            .copy {
+              grid-column-start: span 4;
+              text-align: center;
+            }
+
+            .logo__img {
+                height: 10rem;
+              }
           }
