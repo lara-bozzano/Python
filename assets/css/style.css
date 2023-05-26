@@ -252,7 +252,7 @@ padding:10 px;
             }
           }
 
-          media screen and (min-width:1024px) { 
+          @media screen and (min-width:1024px) { 
         .main-header__container{
               width: 1000px;
               margin: auto;
@@ -342,7 +342,38 @@ padding:10 px;
               text-align: center;
             }
 
-            .logo__img {
-                height: 10rem;
-              }
+
+              .imagenlogo { height: 50px}
+
+              .logo {
+                display: flex;
+                height: 300px;
+                width: 1000px;
+               margin: auto
+                
+            }
+
+
           }
+
+          @media screen and (min-width:1280px) { 
+            .nav{
+              width: 1200px;
+           }
+
+           .imagenlogo { width:20px
+     }
+
+
+
+           .logo {
+            display: flex;
+            height: 80px;
+            width: 1600px;
+           margin: auto
+            
+        }
+
+        
+        }
+          
