@@ -1,9 +1,11 @@
+
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
-	firstname: /^[a-zA-Z0-9\_\-]{4,16}$/,
+	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
 	Apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
+    Códigopostal: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
 }
 
 const campos = {
@@ -13,15 +15,15 @@ const campos = {
 
 const validarFormulario = (e) => {
 	switch (e.target.name) {
-		case "firstname":
-			validarCampo(expresiones.usuario, e.target, 'nombre');
-		break;
 		case "nombre":
+            validarCampo(expresiones.nombre, e.target, 'nombre');
+            break;
+            
+		case "apellido":
 			validarCampo(expresiones.nombre, e.target, 'apellido');
 		break;
-		case "password":
-			validarCampo(expresiones.password, e.target, 'Código-postal');
-			validarPassword2();
+        case "Codigopostal":
+			validarCampo(expresiones.password, e.target, 'Codigopostal');
 		break;
 	}
 }

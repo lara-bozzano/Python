@@ -9,12 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Document</title>
+    <script src="https://sheetdb.io/api/v1/j8ipn2ty8agxz"></script>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<link rel="icon" type="image/jpg" href="../media/logo.jpg">
 
+</head>
+    <link rel="icon" type="image/jpg" href="../media/logo.jpg">
+<div data-sheetdb-url="https://sheetdb.io/api/v1/j8ipn2ty8agxz"> </div>
 </head>
 <body>
     <header>
@@ -37,10 +39,10 @@
         <div class="container">
                 <form id="formulario"> 
         
- <div class= "row">
-            <label for="firstname" class="col-2 col-form-label"  > Nombre</label>
+ <div class= "nombre">
+            <label for="nombre" label for="sheetdb-nombre" class="col-2 col-form-label"  > Nombre</label>
     <div class="col-10"> 
-        <input 
+        <input for="sheetdb-nombre"
         type="text" 
         name="    "
         id=""
@@ -76,12 +78,12 @@
         </div>
         <div class= "col-12">
           
-                <label for=""> Código postal </label>
+                <label for=""> Codigopostal </label>
                 <input 
                 type="number" 
                 name="    "
                 id=""
-                name="Código-postal"
+                name="Codigopostal"
                 >
         </div>
                 
@@ -134,8 +136,13 @@
         
            </form>
 
-           <script src="js/formulario.js"></script>
-</body>
+           <script src="formulario.js"></script>
+           <script src="https://sheetdb.io/handlebars.js"></script>
+
+
+
+</div>
+        </body>
 
 
 <footer class="footer">
