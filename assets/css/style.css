@@ -3,13 +3,12 @@
     margin: 0;
 }
 
-
 body {
 background: grey;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+/*INDEX */
 nav{
     background-color: white;
 }
@@ -26,7 +25,7 @@ ul li {
     }
 
 li:hover {
-    background-color: green;
+    background-color: rgba(16, 98, 28, 0.744);
     cursor:auto;
 }
 
@@ -35,6 +34,31 @@ ul li a {
     color: orangered;
     font-weight: bold;
 }
+
+main {
+  width: 100%;
+}
+.seccion {
+  background-color: red;
+}
+
+.inline {
+  display: inline-block;
+  text-align: center;
+  padding: 40px 130px;
+  font-size: medium;
+  font-weight: bolder;
+  
+}
+
+.envios {
+  display: inline-block;
+  background-color: rgba(16, 98, 28, 0.744);
+  width: 100%;
+ 
+}
+
+/*PRODUCTOS*/
 
 .Buzo2{
     width: 800px;
@@ -45,10 +69,6 @@ ul li a {
    }
 
    * { box-sizing: border-box;
-}
-body {
-
-    margin: 0;
 }
 
 Img {
@@ -64,8 +84,8 @@ padding: 0 20px;
 
 }
 .mainheader__title {
-text align: center;
-font size: 2.5em;
+text-align: center;
+font-size: 2.5em;
 margin: 10 px 0;
 }
 
@@ -82,21 +102,23 @@ align-items:center;
 }
 
 .icon-menu {
-font size: 1.5em;
+font-size: 1.5em;
 border: 1px solid #454546;
 display: block;
 padding: 10px 15px;
 cursor: pointer;
-
 }
 
-.main { padding: 20px}
+.main {
+  padding: 20px
+}
 
 .main-header__btn{
 display: block;
 padding: 10 px 25px;
 color: 1px solid #454546;
 }
+
  .main-header__input{
 display: block;
 padding:10 px;
