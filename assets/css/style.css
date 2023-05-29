@@ -38,14 +38,11 @@ ul li a {
 main {
   width: 100%;
 }
-.seccion {
-  background-color: red;
-}
 
 .inline {
   display: inline-block;
   text-align: center;
-  padding: 40px 130px;
+  padding: 40px 100px;
   font-size: medium;
   font-weight: bolder;
   
@@ -316,7 +313,7 @@ padding:10 px;
             margin: 8pc 0;
             border: none;
             border-radius: 4px;
-            cursor: pointer
+            cursor: pointer;
             grid-column-start: span 4;
             text-align: center;
             }
@@ -363,7 +360,7 @@ padding:10 px;
             }
             
         
-          @media screen and (min-width:768px) (max-width: 1024px) and (orientation: landscape) {
+          @media screen and (min-width:768px), (max-width: 1024px) and (orientation: landscape) {
         
             .editor1{
               height: 200px;
